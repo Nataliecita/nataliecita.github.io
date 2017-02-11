@@ -5,12 +5,18 @@ body {
 }
 
 #sidebar {
-	width: 20%;
+	width: 15%;
 	display: inline-block;
 }
 
 #sidebar ul {
 	list-style-type: none;
 	padding-left: 0px;
+}
+
+main {
+	width: 87px;
+	position: absolute;
+	display: inline-block;
 }
 
