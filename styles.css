@@ -1,4 +1,16 @@
 body {
 	background: beige;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar {
+	width: 20%;
+	display: inline-block;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	padding-left: 0px;
 }
 
