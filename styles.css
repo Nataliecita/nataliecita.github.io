@@ -3,11 +3,14 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Lucida Console", Monaco, monospace;
+	max-width: 960px;
+	min-width: 475px;
 }
 
 #sidebar {
 	width: 15%;
 	display: inline-block;
+	min-width: 110px;
 }
 
 #flag{
@@ -39,7 +42,7 @@ li a:hover {
 }
 
 main {
-	width: 87px;
+	width: 87%;
 	position: absolute;
 	display: inline-block;
 }
