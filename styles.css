@@ -9,6 +9,12 @@ body {
 	display: inline-block;
 }
 
+#flag{
+	width:100px;
+	height: auto;
+}
+
+
 #sidebar ul {
 	list-style-type: none;
 	padding-left: 5px;
