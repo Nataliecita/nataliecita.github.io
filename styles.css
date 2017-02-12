@@ -51,8 +51,12 @@ main {
 	width: 90%;
 }
 
-table{
-	border-style: style;
+table, th, td{
+	border: 1px solid black
+}
+
+tr:hover {
+	background-color: khaki;
 }
 
 a:link {
