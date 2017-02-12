@@ -49,6 +49,8 @@ main {
 
 .linderhof {
 	width: 90%;
+	box-shadow: 8px 8px 10px #aaa;
+  	border-radius: 30px;
 }
 
 .double{
@@ -86,8 +88,5 @@ p {
 	padding: 0 25px 0 0;
 }
 
-img {
-  box-shadow: 8px 8px 10px #aaa;
-  border-radius: 30px; // full circular image
-}
+
 
