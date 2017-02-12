@@ -55,7 +55,7 @@ main {
 	/*position: absolute;*/
 	display: inline-block;
 	vertical-align: text-top;
-	margin-right: 30px;
+	margin-right: 40px;
 }
 
 /*.double ul {
@@ -76,4 +76,12 @@ a:link {
 
 a:visited {
 	color: gold;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+p {
+	padding: 0 25px 0 0;
 }
