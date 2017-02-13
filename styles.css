@@ -88,6 +88,15 @@ p {
 	padding: 0 25px 0 0;
 }
 
+#cbyx {
+	background-image: url(images/cbyx.png);
+	position: relative;
+	background-position:right;
+	background-repeat: no-repeat;
+	padding: 55px;
+	width: 80%;
+}
+
 /*add media query
 add background pic to one element
 */
