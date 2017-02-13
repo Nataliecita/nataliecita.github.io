@@ -1,3 +1,106 @@
 body {
-	background: blue;
+	background: beige;
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Console", Monaco, monospace;
+	max-width: 960px;
+	min-width: 475px;
 }
+
+#sidebar {
+	width: 15%;
+	display: inline-block;
+	min-width: 110px;
+}
+
+#flag{
+	width:100px;
+	height: auto;
+}
+
+
+#sidebar ul {
+	list-style-type: none;
+	padding-left: 5px;
+	background-color: beige;
+}
+
+#sidebar li {
+	padding-bottom: 5px;
+}
+
+#sidebar li a {
+	display: block:
+	color #000000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: khaki;
+	color: white;
+}
+
+main {
+	width: 87%;
+	position: absolute;
+	display: inline-block;
+}
+
+.linderhof {
+	width: 90%;
+	box-shadow: 8px 8px 10px #aaa;
+  	border-radius: 30px;
+}
+
+.double{
+	/*position: absolute;*/
+	display: inline-block;
+	vertical-align: text-top;
+	margin-right: 40px;
+}
+
+/*.double ul {
+	list-style-type: none;	
+}*/
+
+table, th, td{
+	border: 1px solid black
+}
+
+tr:hover {
+	background-color: khaki;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: gold;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+p {
+	padding: 0 25px 0 0;
+}
+
+#cbyx {
+	background-image: url(images/cbyx.png);
+	position: relative;
+	background-position:right;
+	background-repeat: no-repeat;
+	padding: 55px;
+	width: 80%;
+	margin-right: 15px;
+}
+
+@media screen and (max-width: 475px) {
+  .linderhof, #cbyx { 
+    display: none;
+   }
+}
+
