@@ -95,9 +95,12 @@ p {
 	background-repeat: no-repeat;
 	padding: 55px;
 	width: 80%;
+	margin-right: 15px;
 }
 
-/*add media query
-add background pic to one element
-*/
+@media screen and (max-width: 475px) {
+  .linderhof, #cbyx { 
+    display: none;
+   }
+}
 
